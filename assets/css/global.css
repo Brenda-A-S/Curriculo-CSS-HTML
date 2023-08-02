@@ -4,15 +4,62 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    scroll-behavior: smooth;
 }
+
+*::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #141414;
+    border-radius: 20px;
+    border: 3px solid #f1f1f1;
+  }
 
 body {
     font-family: 'Fira Sans', Arial, sans-serif;
     color: #141414;
-
 }
 
 img {
     max-width: 100%;
+    height: auto;
     display: block;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+}
+
+@media(max-width:800px){
+    .container {
+        gap: 40px;
+        padding: 20px;
+    }
+}
+
+.subtitulo {
+    font-size: 8rem;
+    line-height: 1;
+    word-break: break-all;
+    text-transform: uppercase;
+    max-width: 4ch;
+}
+
+@media(max-width:800px){
+    .subtitulo {
+        font-size: 3rem;
+        text-transform: capitalize;
+        max-width: initial !important;
+    }
 }

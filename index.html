@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Exemplo</title>
+
+    <meta name="description" content="Desenvolvedora Front End e UX/UI Designer, Localizada em São Paulo.">
+
+    <title>Brenda | Currículo</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,27 +16,155 @@
     <link rel="stylesheet" href="./assets/css/global.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/introducao.css">
+    <link rel="stylesheet" href="./assets/css/experiencia.css">
+    <link rel="stylesheet" href="./assets/css/formacao.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+
+    <link rel="shortcut icon" href="/assets/imgs/cursos.svg" type="image/x-icon">
 </head>
 
 <body>
-    <header class="header">
-        <img src="./assets/imgs/marca.svg" alt="Logo Marca">
+    <header class="container header">
+        <img src="./assets/imgs/marca.svg" alt="Logo Marca" width="104" height="38">
         <nav>
             <ul class="header__menu">
-                <li><a href="">Experiência</a></li>
-                <li><a href="">Formação</a></li>
-                <li><a href="">Contato</a></li>
+                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <main class="main__introducao">
-        <img src="./assets/imgs/perfil.jpg" alt="Lobo Cinza">
+    <main class="container introducao">
+        <img src="./assets/imgs/perfil.jpg" alt="Lobo Cinza" width="360" height="520">
         <div>
             <h1>Desenvolvedora<br>Front End &<br>UX/UI Designer</h1>
-            <p>Localizada em São Paulo</p>
+            <p>Localizada em São Paulo 🌃</p>
         </div>
     </main>
+
+    <section aria-label="Experiência" class="container experiencia" id="experiencia">
+        <h2 class="subtitulo">Experiência</h2>
+        <div>
+            <p class="experiencia-texto">Desenvolvo pequenos projetos pessoais utilizando
+                <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong> em conjunto com
+                <strong>Frameworks</strong> e <strong>Bibliotecas</strong>. Além disso, também realizo o
+                <strong>UX</strong> e <strong>UI Design</strong> dos meus projetos.
+            </p>
+
+            <div class="empresa">
+                <span class="empresa-ano">2023</span>
+                <h3 class="empresa-titulo">MarsTravel</h3>
+                <span class="empresa-titulo">UX/UI Design & FullStack</span>
+                <p class="empresa-texto">No projeto MarsTravel, site fictício de viagens para Marte, fiz o
+                    desenvolvimento do HTML, CSS e
+                    TypeScript com Angular. Além disso, criei seu design completo.</p>
+                <ul class="empresa-habilidades">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>TypeScript</li>
+                    <li>Angular</li>
+                    <li>UX Design</li>
+                    <li>UI Design</li>
+                </ul>
+            </div>
+
+            <div class="empresa">
+                <span class="empresa-ano">2023</span>
+                <h3 class="empresa-titulo">Clínica Pet & Pets</h3>
+                <span class="empresa-titulo">UX/UI Design & FullStack</span>
+                <p class="empresa-texto">A Clínica Pet & Pets é uma empresa fictícia que oferece serviços veterinários
+                    em São Paulo. O projeto foi feito com HTML, CSS e JavaScript com React. Todo o projeto foi feito do
+                    zero, desde o design até a implementação.</p>
+                <ul class="empresa-habilidades">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>UX Design</li>
+                    <li>UI Design</li>
+                </ul>
+            </div>
+
+            <div class="empresa">
+                <span class="empresa-ano">2023 | Atual </span>
+                <h3 class="empresa-titulo">Nails & Beauty</h3>
+                <span class="empresa-titulo">UX/UI Design</span>
+                <p class="empresa-texto">Design do site de beleza Nails & Beauty completo, empresa fictícia que oferece
+                    serviços de manicure e pedicure em São Paulo. O projeto será publicado em breve.</p>
+                <ul class="empresa-habilidades">
+                    <li>UX Design</li>
+                    <li>UI Design</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="formacao" id="formacao" aria-label="Formação">
+        <div class="container formacao-container">
+            <h2 class="subtitulo">Formação</h2>
+
+            <div>
+                <p class="formacao-texto">
+                    Minha mais recente experiência acadêmica foi minha <strong>graduação</strong> 🎓 que concluí em 2020 em
+                    <strong>Análise e Desenvolvimento de Sistemas</strong>. Além disso estou aprimorando meus conhecimentos com cursos online.
+                </p>
+
+                <ul class="faculdade-lista">
+                    <li class="faculdade">
+                        <span class="faculdade-tipo">Graduação</span>
+                        <h3 class="faculdade-curso">Análise e Desenvolvimento de Sistemas</h3>
+                        <span class="faculdade-instituicao">UNINOVE</span>
+                    </li>
+                    <li class="faculdade">
+                        <span class="faculdade-tipo">Técnico</span>
+                        <h3 class="faculdade-curso">Administração</h3>
+                        <span class="faculdade-instituicao">ETEC JK</span>
+                    </li>
+                    <!-- <li class="faculdade">
+                        <span class="faculdade-tipo">Pós Graduação</span>
+                        <h3 class="faculdade-curso">UX/UI Design</h3>
+                        <span class="faculdade-instituicao">???</span>
+                    </li> -->
+                </ul>
+
+                <div class="formacao-extra">
+                    <div class="cursos">
+                        <h3>Cursos Intensivos & Bootcamps</h3>
+                        <ul>
+                            <li>Banco PAN Java Developer <span>114h</span></li>
+                            <li>Potência Tech Angular Developer - Powered by iFood <span>75h</span></li>
+                            <li>UI Design para Iniciantes <span>34h</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="idiomas">
+                        <h3>Idiomas</h3>
+                        <ul>
+                            <li>Inglês <span>/ Básico</span></li>
+                            <li>Espanhol <span>/ Básico</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contato">
+        <div class="container footer-container">
+            <p class="footer-texto">
+                Estou disponível para novos projetos no momento. Entre me contato comigo e marcamos uma conversa 👋
+            </p>
+            <ul class="footer-contato">
+                <li>brenda.antunes.silva.0@gmail.com</li>
+                <li>+55 11 94958-7370</li>
+                <li><a href="https://www.instagram.com/brenda_a_s_dev/" target="_blank">@brenda_a_s_dev</a></li>
+            </ul>
+            <p class="footer-copy">Brenda Antunes da Silva. Alguns direitos reservados.</p>
+        </div>
+    </footer>
 
 </body>
 
