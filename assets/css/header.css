@@ -18,6 +18,13 @@
     text-decoration: none;
     color: #141414;
     display: block;
+    border-radius: 4px;
+}
+
+.header__menu a:hover {
+    background-color: #ffc8dd;
+    font-weight: 500;
+    transition: .8s;
 }
 
 @media(max-width:800px){
