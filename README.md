@@ -1,6 +1,6 @@
 # Projeto Currículo Dev :art:
 
-Projeto simples de currículo online, utlizando apenas HTML e CSS para fixar conhecimentos do curso de HTML e CSS para Iniciantes.
+Projeto simples de currículo online, utilizando apenas HTML e CSS para fixar conhecimentos do curso de HTML e CSS para Iniciantes.
 
 # Resultado :pushpin:
 
